@@ -4,5 +4,15 @@
     <string name="app_title">Tour Budapest</string>
 
     <string name="company_mail">tours.apps@gmail.com</string>
+
+    <!-- Splash Activity -->
     <string name="splash_logo_description">Tour Budapest Logo</string>
+
+    <!-- Main Activity -->
+    <string name="main_title">Visita Budapest</string>
+    <string name="main_menu_item_airport">Desplazamientos desde el Aeropuerto</string>
+    <string name="main_menu_item_public_transport">Transporte Público</string>
+    <string name="main_menu_item_what_to_visit">Qué Visitar</string>
+    <string name="main_menu_item_where_to_eat">Donde Comer</string>
+    <string name="main_menu_item_where_to_party">Donde ir de fiesta</string>
 </resources>
