@@ -6,13 +6,12 @@
     android:layout_gravity="center"
     android:background="@color/white">
 
-    <TextView
-        android:id="@+id/splashTitle"
+    <ImageView
+        android:id="@+id/splashLogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app_title"
-        android:textSize="24sp"
-        android:textColor="@color/black"
-        android:layout_marginTop="16dp" />
+        android:src="@drawable/logo_tour_budapest"
+        android:contentDescription="@string/splash_logo_description"
+        android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>
