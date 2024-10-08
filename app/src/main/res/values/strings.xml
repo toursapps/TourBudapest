@@ -10,9 +10,14 @@
 
     <!-- Main Activity -->
     <string name="main_title">Visita Budapest</string>
-    <string name="main_menu_item_airport">Desplazamientos desde el Aeropuerto</string>
+    <string name="main_menu_item_airport">Cómo llegar desde el Aeropuerto</string>
     <string name="main_menu_item_public_transport">Transporte Público</string>
     <string name="main_menu_item_what_to_visit">Qué Visitar</string>
     <string name="main_menu_item_where_to_eat">Donde Comer</string>
     <string name="main_menu_item_where_to_party">Donde ir de fiesta</string>
+    <string name="main_menu_item_icon_airport">Aeropuerto</string>
+    <string name="main_menu_item_icon_attractions">Qué Visitar</string>
+    <string name="main_menu_item_icon_lunch">Donde Comer</string>
+    <string name="main_menu_item_icon_nightlife">Donde ir de fiesta</string>
+    <string name="main_menu_item_icon_public_transport">Transporte Público</string>
 </resources>

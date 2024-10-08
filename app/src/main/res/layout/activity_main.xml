@@ -7,80 +7,174 @@
     android:layout_gravity="center"
     android:background="@color/white">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/main_title"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:textColor="@color/blue"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="30dp"
-        android:layout_gravity="center_horizontal"/>
-
-    <TextView
-        android:id="@+id/main_menu_item_airport"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:layout_marginBottom="10dp"
-        android:text="@string/main_menu_item_airport"
-        android:textSize="18sp"
-        android:textColor="@color/blue"
-        android:clickable="true"
-        android:focusable="true"
-        android:background="@color/blue_clear" />
-
-    <TextView
-        android:id="@+id/main_menu_item_public_transport"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginVertical="30dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo107x60"
+            android:contentDescription="@string/main_menu_item_icon_airport"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_title"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:layout_marginVertical="0dp"
+            android:layout_gravity="center_horizontal"
+            android:shadowColor="#80000000"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="2"
+            android:fontFamily="@font/montserrat_bold"/>
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/blue_clear"
         android:layout_marginBottom="10dp"
-        android:text="@string/main_menu_item_public_transport"
-        android:textSize="18sp"
-        android:textColor="@color/blue"
-        android:clickable="true"
-        android:focusable="true"
-        android:background="@color/blue_clear" />
-
-    <TextView
-        android:id="@+id/main_menu_item_what_to_visit"
+        android:padding="0dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/baseline_local_airport_72"
+            android:contentDescription="@string/main_menu_item_icon_airport"/>
+        <TextView
+            android:id="@+id/main_menu_item_airport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginVertical="0dp"
+            android:text="@string/main_menu_item_airport"
+            android:textSize="18sp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true" />
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/blue_clear"
         android:layout_marginBottom="10dp"
-        android:text="@string/main_menu_item_what_to_visit"
-        android:textSize="18sp"
-        android:textColor="@color/blue"
-        android:clickable="true"
-        android:focusable="true"
-        android:background="@color/blue_clear" />
-
-    <TextView
-        android:id="@+id/main_menu_item_where_to_eat"
+        android:padding="0dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_public_transport_72"
+            android:contentDescription="@string/main_menu_item_icon_public_transport"/>
+        <TextView
+            android:id="@+id/main_menu_item_public_transport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginVertical="0dp"
+            android:text="@string/main_menu_item_public_transport"
+            android:textSize="18sp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/blue_clear" />
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/blue_clear"
         android:layout_marginBottom="10dp"
-        android:text="@string/main_menu_item_where_to_eat"
-        android:textSize="18sp"
-        android:textColor="@color/blue"
-        android:clickable="true"
-        android:focusable="true"
-        android:background="@color/blue_clear" />
-
-    <TextView
-        android:id="@+id/main_menu_item_where_to_party"
+        android:padding="0dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_attractions_72"
+            android:contentDescription="@string/main_menu_item_icon_attractions"/>
+        <TextView
+            android:id="@+id/main_menu_item_what_to_visit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginVertical="0dp"
+            android:text="@string/main_menu_item_what_to_visit"
+            android:textSize="18sp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/blue_clear" />
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/blue_clear"
         android:layout_marginBottom="10dp"
-        android:text="@string/main_menu_item_where_to_party"
-        android:textSize="18sp"
-        android:textColor="@color/blue"
-        android:clickable="true"
-        android:focusable="true"
-        android:background="@color/blue_clear" />
-
+        android:padding="0dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_lunch_72"
+            android:contentDescription="@string/main_menu_item_icon_lunch"/>
+        <TextView
+            android:id="@+id/main_menu_item_where_to_eat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginVertical="0dp"
+            android:text="@string/main_menu_item_where_to_eat"
+            android:textSize="18sp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/blue_clear" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/blue_clear"
+        android:layout_marginBottom="10dp"
+        android:padding="0dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_nightlife_72"
+            android:contentDescription="@string/main_menu_item_icon_nightlife"/>
+        <TextView
+            android:id="@+id/main_menu_item_where_to_party"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginVertical="0dp"
+            android:text="@string/main_menu_item_where_to_party"
+            android:textSize="18sp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@color/blue_clear" />
+    </LinearLayout>
 </LinearLayout>
