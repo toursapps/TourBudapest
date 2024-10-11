@@ -103,6 +103,6 @@ public class MainActivity extends AppCompatActivity {
         if (intent != null)
             startActivity(intent);
         else
-            Toast.makeText(this, "Error. Algo falló al abrir el enlace", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.error_link), Toast.LENGTH_LONG).show();
     }
 }

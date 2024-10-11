@@ -22,4 +22,7 @@
     <string name="main_menu_item_icon_nightlife">Donde ir de fiesta</string>
     <string name="main_menu_item_icon_public_transport">Transporte Público</string>
     <string name="main_menu_item_icon_money">Mis Gastos</string>
+
+    <!-- Error messages -->
+    <string name="error_link">Error. Algo falló al abrir el enlace</string>
 </resources>
