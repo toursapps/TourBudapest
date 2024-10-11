@@ -1,6 +1,8 @@
 package com.tour.budapest;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -48,13 +50,9 @@ public class MainActivity extends AppCompatActivity {
         imageWhereToParty = (ImageView) findViewById(R.id.main_img_where_to_party);
         imageMoney = (ImageView) findViewById(R.id.main_img_money);
 
-        textAirport.setOnClickListener(v -> {
-            Toast.makeText(this, "Airport text clicked", Toast.LENGTH_SHORT).show();
-        });
+        textAirport.setOnClickListener(v -> goToActivity("airport"));
 
-        textPublicTransport.setOnClickListener(v -> {
-            Toast.makeText(this, "Public Transport text clicked", Toast.LENGTH_SHORT).show();
-        });
+        textPublicTransport.setOnClickListener(v -> goToActivity("public_transport"));
 
         textWhatToVisit.setOnClickListener(v -> {
             Toast.makeText(this, " What To Visit text clicked", Toast.LENGTH_SHORT).show();
@@ -74,9 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Images onClicks
 
-        imageAirport.setOnClickListener(v -> {
-            Toast.makeText(this, "Airport image clicked", Toast.LENGTH_SHORT).show();
-        });
+        imageAirport.setOnClickListener(v -> goToActivity("airport"));
 
         imagePublicTransport.setOnClickListener(v -> {
             Toast.makeText(this, "Public Transport image clicked", Toast.LENGTH_SHORT).show();
@@ -97,5 +93,16 @@ public class MainActivity extends AppCompatActivity {
         imageMoney.setOnClickListener(v -> {
             Toast.makeText(this, "Money image clicked", Toast.LENGTH_SHORT).show();
         });
+    }
+
+    private void goToActivity(String name) {
+        Intent intent = null;
+        if ("airport".equals(name)) {
+            intent = new Intent(MainActivity.this, AirportActivity.class);
+        }
+        if (intent != null)
+            startActivity(intent);
+        else
+            Toast.makeText(this, "Error. Algo falló al abrir el enlace", Toast.LENGTH_LONG).show();
     }
 }
