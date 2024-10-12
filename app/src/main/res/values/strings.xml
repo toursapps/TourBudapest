@@ -23,6 +23,30 @@
     <string name="main_menu_item_icon_public_transport">Transporte Público</string>
     <string name="main_menu_item_icon_money">Mis Gastos</string>
 
+    <!-- Airport Activity -->
+    <string name="airport_header_description">Budapest Airport</string>
+    <string name="airport_section_title_public_transport">- Usando el transporte público:</string>
+    <string name="airport_section_content_public_transport">
+        En el caso de Budapest, el llegar al centro de la ciudad desde el Aeropuerto en transporte
+        público es muy sencillo y rápido, además de ser sin duda la opción más barata.
+        \n\n
+        Existen dos lineas de autobús que realizan el trayecto desde el Aeropuerto hasta el centro:
+        La <b>100E</b> y la <b>200E</b>.
+        \n\n
+        <b>El autobús 100E:</b>
+        \n\n
+        Es la opción más habitual. Es muy sencillo de encontrar una vez sales del Aeropuerto
+        ya que si una vez sales empiezas a andar a tu derecha, en seguida verás los autobuses y a la gente
+        haciendo cola para entrar en ellos.
+        El autobús tarda unos 40 minutos en realizar el trayecto completo, y solo realiza un par de paradas una vez entra en
+        la ciudad.
+        \n
+        Si tienes suerte y entras de los primeros podras sentarte, pero sino, te tocará ir de pie todo el camino.
+        \n\n
+        Para comprar los billetes se pueden utilizar unas máquinas que se encuentran fuera del aeropuerto,
+        pero en ellas suele haber bastante cola, y es más rápido sacarlos en un puesto de información que hay <b>DENTRO</b> del aeropuerto.
+    </string>
+
     <!-- Error messages -->
     <string name="error_link">Error. Algo falló al abrir el enlace</string>
 </resources>
