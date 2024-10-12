@@ -27,24 +27,57 @@
     <string name="airport_header_description">Budapest Airport</string>
     <string name="airport_section_title_public_transport">- Usando el transporte público:</string>
     <string name="airport_section_content_public_transport">
-        En el caso de Budapest, el llegar al centro de la ciudad desde el Aeropuerto en transporte
-        público es muy sencillo y rápido, además de ser sin duda la opción más barata.
+        <b>1. Autobús</b>
         \n\n
-        Existen dos lineas de autobús que realizan el trayecto desde el Aeropuerto hasta el centro:
-        La <b>100E</b> y la <b>200E</b>.
+        Una opción económica y popular para llegar al centro de Budapest desde el Aeropuerto
+        Internacional Ferenc Liszt es el autobús. El autobús <b>100E</b> es un servicio directo que
+        conecta el aeropuerto con las principales áreas del centro, como <b>Deák Ferenc tér</b>.
+        Este autobús opera desde temprano por la mañana hasta la medianoche, y sale aproximadamente
+        cada <b>15 minutos</b>.
         \n\n
-        <b>El autobús 100E:</b>
+        El trayecto dura entre <b>35 y 45 minutos</b>, dependiendo del tráfico. Los billetes para
+        el autobús <b>100E</b> se pueden comprar en las máquinas de venta ubicadas en las terminales
+        del aeropuerto o mediante la aplicación móvil de transporte público de Budapest.
+        El billete específico para este servicio cuesta alrededor de <b>2,20 EUR (900 HUF)</b>, y
+        no es válido con los abonos de transporte urbano regulares.
         \n\n
-        Es la opción más habitual. Es muy sencillo de encontrar una vez sales del Aeropuerto
-        ya que si una vez sales empiezas a andar a tu derecha, en seguida verás los autobuses y a la gente
-        haciendo cola para entrar en ellos.
-        El autobús tarda unos 40 minutos en realizar el trayecto completo, y solo realiza un par de paradas una vez entra en
-        la ciudad.
-        \n
-        Si tienes suerte y entras de los primeros podras sentarte, pero sino, te tocará ir de pie todo el camino.
+        Otra opción es el autobús <b>200E</b>, que te lleva a la estación de metro <b>Kőbánya-Kispest</b>,
+        desde donde puedes hacer conexión con la línea <b>M3</b> del metro para continuar hacia el
+        centro. Esta opción es un poco más económica pero requiere un transbordo, y el viaje
+        completo puede llevar entre <b>50 y 60 minutos</b>.
         \n\n
-        Para comprar los billetes se pueden utilizar unas máquinas que se encuentran fuera del aeropuerto,
-        pero en ellas suele haber bastante cola, y es más rápido sacarlos en un puesto de información que hay <b>DENTRO</b> del aeropuerto.
+        <b>2. Taxi</b>
+        \n\n
+        Para aquellos que prefieren comodidad y rapidez, tomar un taxi es la opción más conveniente.
+        Los taxis oficiales están disponibles justo fuera de las terminales, y la empresa autorizada
+        en el aeropuerto es Főtaxi. Todos los taxis de esta compañía utilizan un taxímetro, lo que
+        asegura un precio justo.
+        \n\n
+        El coste de un trayecto desde el aeropuerto hasta el centro de Budapest suele rondar entre
+        <b>25 y 30 EUR (10,000 a 11,000 HUF)</b>, dependiendo del tráfico y de la ubicación exacta
+        de tu destino. El viaje dura aproximadamente <b>25-35 minutos</b>. Ten en cuenta que las
+        tarifas nocturnas pueden ser ligeramente más altas.
+        \n\n
+        Es recomendable evitar taxis no oficiales o no autorizados que puedan ofrecer servicios
+        dentro o alrededor del aeropuerto, ya que podrían cobrar tarifas exageradas.
+        \n\n
+        <b>3. Transporte Privado Contratado</b>
+        \n\n
+        Otra alternativa para viajar desde el aeropuerto hasta el centro de la ciudad es contratar
+        un servicio de transporte privado con antelación. Este servicio es ideal si quieres evitar
+        cualquier tipo de espera o si viajas con equipaje pesado.
+        \n\n
+        Las empresas de transporte privado ofrecen coches, minibuses e incluso vehículos de lujo
+        para grupos más grandes. Uno de los beneficios de este tipo de servicio es que un conductor
+        estará esperando por ti en el área de llegadas con un cartel con tu nombre, y no tendrás que
+        preocuparte por buscar transporte al llegar.
+        \n\n
+        Los precios para el transporte privado suelen comenzar alrededor de <b>30 EUR</b> y pueden
+        subir dependiendo del tipo de vehículo y el nivel de servicio que elijas. El tiempo del
+        trayecto es similar al de un taxi, con una duración promedio de <b>25-35 minutos</b>.
+        \n\n
+        Este tipo de servicio se puede reservar fácilmente a través de internet antes de tu llegada,
+        y muchas veces incluye tarifas fijas que te evitarán sorpresas desagradables.
     </string>
 
     <!-- Error messages -->
