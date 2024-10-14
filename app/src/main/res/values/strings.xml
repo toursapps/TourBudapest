@@ -26,7 +26,7 @@
     <!-- Airport Activity -->
     <string name="airport_header_description">Budapest Airport</string>
     <string name="airport_section_title_public_transport">- Usando el transporte público:</string>
-    <string name="airport_section_content_public_transport">
+    <string name="airport_section_content_public_transport_bus_100e">
         <b>1. Autobús</b>
         \n\n
         Una opción económica y popular para llegar al centro de Budapest desde el Aeropuerto
@@ -40,7 +40,9 @@
         del aeropuerto o mediante la aplicación móvil de transporte público de Budapest.
         El billete específico para este servicio cuesta alrededor de <b>2,20 EUR (900 HUF)</b>, y
         no es válido con los abonos de transporte urbano regulares.
-        \n\n
+    </string>
+    <string name="airport_section_content_public_transport_bus_100e_link">Aquí puede ver la ruta del autobús <b>100E</b></string>
+    <string name="airport_section_content_public_transport">
         Otra opción es el autobús <b>200E</b>, que te lleva a la estación de metro <b>Kőbánya-Kispest</b>,
         desde donde puedes hacer conexión con la línea <b>M3</b> del metro para continuar hacia el
         centro. Esta opción es un poco más económica pero requiere un transbordo, y el viaje
@@ -79,6 +81,9 @@
         Este tipo de servicio se puede reservar fácilmente a través de internet antes de tu llegada,
         y muchas veces incluye tarifas fijas que te evitarán sorpresas desagradables.
     </string>
+
+    <!-- Bus100E Route Activity -->
+    <string name="bus100e_route_title">Ruta del autobús <b>100E</b></string>
 
     <!-- Error messages -->
     <string name="error_link">Error. Algo falló al abrir el enlace</string>
