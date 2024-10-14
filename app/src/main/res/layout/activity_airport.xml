@@ -85,6 +85,27 @@
                     android:textColor="@color/blue"
                     android:textStyle="bold"/>
 
+                <!-- Bus 200E -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/airport_section_content_public_transport_bus_200e"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/airport_bus_200e_link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/airport_section_content_public_transport_bus_200e_link"
+                    android:textSize="15sp"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"/>
+
 
                 <TextView
                     android:layout_width="match_parent"

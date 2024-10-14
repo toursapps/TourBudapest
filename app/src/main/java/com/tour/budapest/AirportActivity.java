@@ -19,9 +19,15 @@ public class AirportActivity extends AppCompatActivity {
         setContentView(R.layout.activity_airport);
 
         TextView textBus100ELink = findViewById(R.id.airport_bus_100e_link);
+        TextView textBus200ELink = findViewById(R.id.airport_bus_200e_link);
 
         textBus100ELink.setOnClickListener(v -> {
             Intent intent = new Intent(this, Bus100ERouteActivity.class);
+            startActivity(intent);
+        });
+
+        textBus200ELink.setOnClickListener(v -> {
+            Intent intent = new Intent(this, Bus200ERouteActivity.class);
             startActivity(intent);
         });
     }

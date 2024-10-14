@@ -42,12 +42,16 @@
         no es válido con los abonos de transporte urbano regulares.
     </string>
     <string name="airport_section_content_public_transport_bus_100e_link">Aquí puede ver la ruta del autobús <b>100E</b></string>
-    <string name="airport_section_content_public_transport">
+    <string name="airport_section_content_public_transport_bus_200e">
         Otra opción es el autobús <b>200E</b>, que te lleva a la estación de metro <b>Kőbánya-Kispest</b>,
         desde donde puedes hacer conexión con la línea <b>M3</b> del metro para continuar hacia el
         centro. Esta opción es un poco más económica pero requiere un transbordo, y el viaje
         completo puede llevar entre <b>50 y 60 minutos</b>.
-        \n\n
+    </string>
+    <string name="airport_section_content_public_transport_bus_200e_link">Aquí puede ver la ruta del autobús <b>200E</b></string>
+
+
+    <string name="airport_section_content_public_transport">
         <b>2. Taxi</b>
         \n\n
         Para aquellos que prefieren comodidad y rapidez, tomar un taxi es la opción más conveniente.
@@ -84,6 +88,9 @@
 
     <!-- Bus100E Route Activity -->
     <string name="bus100e_route_title">Ruta del autobús <b>100E</b></string>
+
+    <!-- Bus200E Route Activity -->
+    <string name="bus200e_route_title">Ruta del autobús <b>200E</b></string>
 
     <!-- Error messages -->
     <string name="error_link">Error. Algo falló al abrir el enlace</string>
